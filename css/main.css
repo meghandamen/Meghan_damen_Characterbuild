@@ -24,8 +24,8 @@ header {
 }
 
 #character_nav {
-    background-color: #912121b7;
-    background-image: url(../images/characters_art_mas_mob_01.jpeg);
+    background-color: #0a2842b7;
+    background-image: url(../images/sanrio.jpeg);
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -45,16 +45,16 @@ header {
     margin: 50px 50px;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 210px 0 0 rgb(218, 158, 245) inset;
+    box-shadow: 0 210px 0 0 rgb(255, 255, 255) inset;
     transition: box-shadow 0.2s ease-in-out;
 }
 
 .characters li:hover {
-    box-shadow: 0 260px 0 0 rgb(218, 158, 245) inset;
+    box-shadow: 0 260px 0 0 rgb(255, 255, 255) inset;
 }
 
 .characters li h3 {
-    color: white;
+    color: rgb(232, 118, 200);
     padding: 0px 8px;
 }
 
@@ -69,31 +69,35 @@ header {
 .sprite {
     width: 200px;
     height: 200px;
-    background-image: url(../images/sanriosheet.png);
+    background-image: url(../images/sanriospirte.png);
 }
 
-#carol {
-    background-position: -150px 0;
+#kuromi {
+    background-position: -0px -200px;
 }
 
-#clint {
-    background-position: -300px 0;
+#kero {
+    background-position: -200px -600px;
 }
 
-#hulk {
-    background-position: -450px 0;
+#badtz {
+    background-position: -0px -600px;
 }
 
-#thor {
-    background-position: -600px 0;
+#mel {
+    background-position: -200px -200px;
 }
 
-#widow {
-    background-position: -750px 0;
+#cin {
+    background-position: -200px -400px;
 }
 
-#cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
-    background-position-y: 150px;
+#pom:hover, #kuromi:hover, #badtz:hover {
+    background-position-x: -400px;
+}
+
+#kero:hover, #mel:hover, #cin:hover {
+    background-position-x: -600px;
 }
 
 #instructions {
@@ -116,14 +120,14 @@ footer {
 /*light box*/
 
 .lightbox {
-    width: 100vw;
-    height:100vh;
+    width: 80vw;
+    height:80vh;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    background-color: rgba(0, 0, 0, 0.623);
-    background-image: url(../images/cinna.png);
+    top: 50px;
+    left: 200px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.788);
+    background-image: url(../images/pompom.png);
     background-repeat: no-repeat;
     background-size: 55vh;
     background-position: 40px bottom;
@@ -142,12 +146,12 @@ footer {
 }
 
 .lightbox_close:hover {
-    color: rgb(218, 158, 245);
+    color: rgb(255, 255, 255);
 }
 
 .lightbox article {
-    width: 55%;
-    margin-left: 40%;
+    width: 30%;
+    margin-left: 50%;
     padding-top: 50px;
 }
 
@@ -163,18 +167,22 @@ footer {
     display: block;
 }
 
-#lightbox3 {
+#lightbox2 {
     background-image: url(../images/kuromi2.png);
 }
 
-#lightbox4 {
+#lightbox3 {
     background-image: url(../images/kuroppi2.png);
 }
 
-#lightbox5 {
+#lightbox4 {
     background-image: url(../images/badtz.png);
 }
 
-#lightbox6 {
+#lightbox5 {
     background-image: url(../images/melody.png);
+}
+
+#lightbox6 {
+    background-image: url(../images/cinna.png);
 }
