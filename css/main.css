@@ -13,7 +13,8 @@ body {
 }
 
 header {
-    background-color: rgb(200, 180, 247);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,232,1) 15%, rgba(255,197,247,1) 50%, rgba(255,0,232,1) 85%, rgba(2,0,36,1) 100%);
     padding: 10px 0; /*top and bottom, left and right*/
 }
 
@@ -42,7 +43,7 @@ header {
 .characters li {
     height: 260px;
     background-color: black;
-    margin: 50px 50px;
+    margin: 30px 30px;
     text-align: center;
     cursor: pointer;
     box-shadow: 0 210px 0 0 rgb(255, 255, 255) inset;
